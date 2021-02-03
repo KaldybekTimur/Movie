@@ -34,6 +34,22 @@ class DetailViewController: UIViewController {
         isFavorite.setBackgroundImage(UIImage(named: "star"), for: .normal)
     }
     
+    @IBOutlet weak var imageHeight: NSLayoutConstraint!
+    
+    
+    override func willRotate(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval)
+                {
+                    if toInterfaceOrientation == .landscapeLeft || toInterfaceOrientation == .landscapeRight{
+        // Imageview height constraint outlate
+                        imageHeight.constant = 0
+                    }
+                    else{
+                        imageHeight.constant = 190
+
+                    }
+                }
+    
+    
     @IBAction func isFavoritePressed(_ sender: UIButton) {
         if buttonActive {
             isFavorite.setBackgroundImage(UIImage(named: "star"), for: .normal)
