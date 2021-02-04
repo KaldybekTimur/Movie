@@ -84,7 +84,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate{
         
         if indexPath.section == lastIndex && indexPath.row == lastRowIndex{
             
-            /// Доделать refresh
+            //: нужно **Доделать refresh**
             // self.loadMovies()
             
         } else {
