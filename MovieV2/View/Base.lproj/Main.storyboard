@@ -306,6 +306,7 @@
                             <constraint firstItem="T5f-mK-n8p" firstAttribute="leading" secondItem="EX5-oj-uz2" secondAttribute="leading" constant="5" id="1ez-Ed-Hcg"/>
                             <constraint firstItem="NkS-c9-WeT" firstAttribute="leading" secondItem="EX5-oj-uz2" secondAttribute="leading" constant="40" id="3Q6-Pn-mBQ"/>
                             <constraint firstItem="7U5-gn-qQ0" firstAttribute="leading" secondItem="EX5-oj-uz2" secondAttribute="leading" constant="20" id="6eN-vu-yzB"/>
+                            <constraint firstItem="EX5-oj-uz2" firstAttribute="trailing" secondItem="7qD-zb-GKh" secondAttribute="trailing" constant="37" id="8yO-Yx-z0q"/>
                             <constraint firstItem="7U5-gn-qQ0" firstAttribute="top" secondItem="gl9-PA-65u" secondAttribute="bottom" constant="5" id="9cd-f4-lFU"/>
                             <constraint firstItem="7qD-zb-GKh" firstAttribute="centerX" secondItem="eTY-xd-Fxc" secondAttribute="centerX" id="AiH-9g-A9d"/>
                             <constraint firstItem="7qD-zb-GKh" firstAttribute="top" secondItem="7U5-gn-qQ0" secondAttribute="bottom" constant="25" id="EJ8-QG-dfb"/>
@@ -331,6 +332,7 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="8yO-Yx-z0q"/>
                                 <exclude reference="1ez-Ed-Hcg"/>
                                 <exclude reference="IN9-si-hfL"/>
                                 <exclude reference="nI2-pC-Pap"/>
@@ -348,6 +350,7 @@
                         </variation>
                         <variation key="heightClass=compact">
                             <mask key="constraints">
+                                <include reference="8yO-Yx-z0q"/>
                                 <exclude reference="mqT-Gg-YRr"/>
                                 <include reference="1ez-Ed-Hcg"/>
                                 <include reference="IN9-si-hfL"/>
